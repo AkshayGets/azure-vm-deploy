@@ -20,6 +20,5 @@ steps:
     location: 'East US'
     templateLocation: 'Linked artifact'
     csmFile: 'azure-vm-deploy/azuredeploy.json'
-    overrideParameters: '-projectName vm-deployment -linkedTemplateUri https://github.com/AkshayGets/azure-vm-deploy'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
